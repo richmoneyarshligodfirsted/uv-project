@@ -7,7 +7,9 @@ authors = [
     { name = "Richmoneyarshligodfirsted", email = "Richmoneyarshligodfirsted@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 uv-project = "uv_project:main"
